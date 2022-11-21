@@ -21,14 +21,7 @@ public class Conditionals01 {
 		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 		//		int check  = 100;
 //		int num1 = 50;
