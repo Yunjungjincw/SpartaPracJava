@@ -1,9 +1,17 @@
 package objectOrientedProgramming;
 
-	class Phone {
+	class Phone01 {
 	    String model;
 	    String color;
 	    int price;
+	    
+	    // 생성자
+	    // 객체에 있는 model 이라는 변수에 parameter로 받은 model 이라는 친구를 할당할 거야, 라는 의미가 됨.
+	    Phone01(String model, String color, int price){
+	    	this.model = model;
+	    	this.color = model;
+	    	this.price = price;
+	    }
 	    
 	    
 	    //동사로 시작, 캐멀 케이스
