@@ -29,7 +29,7 @@ abstract class Bird {
 public class AbstractClass {
 	public static void main(String[] args) {
 //		Bird bird = new Bird();
-		//Cannot instantiate the type Bird
+		Cannot instantiate the type Bird
 		
 	}
 
