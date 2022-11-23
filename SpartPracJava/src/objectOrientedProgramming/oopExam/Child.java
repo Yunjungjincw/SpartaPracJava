@@ -1,14 +1,21 @@
 package objectOrientedProgramming.oopExam;
 
 public class Child implements Walkable{
-	String name;
+	String 자식;
 	int old;
 	int x,y;
 	int a,b;
+	int i,j;
 	
 	public void walkLocation(){
 		System.out.println("현재 위치{"+x+","+y+"}");
 		}
+	public void runLocation() {
+		System.out.println("달리기 현재 위치{"+a+","+b+"}");
+	}
+	public void swimLocation() {
+		System.out.println("수영 현재 위치{"+i+","+j+"}");
+	}
 	
 	@Override
 	public void walkable(int x, int y) {
@@ -28,9 +35,20 @@ public class Child implements Walkable{
 		this.b = b+7;
 		runLocation();
 	}
-	public void runLocation() {
-		System.out.println("달리기 현재 위치{"+a+","+b+"}");
+	@Override
+	public void swimAble(int i, int j) {
+		walkLocation();
+		System.out.println("수영 시작합니다..");
+		this.i = i+6;
+		this.j = j+6;
+		walkLocation();
+		System.out.println();
+		
 	}
+	
+	
+	
+	
 	
  
 }

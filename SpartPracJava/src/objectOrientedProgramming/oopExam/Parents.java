@@ -30,6 +30,11 @@ public class Parents implements Walkable{
 		this.a = a+5;
 		this.b = b+5;
 		runLocation();
+	}
+	@Override
+	public void swimAble(int i, int j) {
+		System.out.println("수영을 하지 못합니다.");
 		
 	}
+	
 }

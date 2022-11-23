@@ -28,4 +28,9 @@ public class GrandParents implements Walkable{
 		runLocation();
 		System.out.println("뛸 수 없습니다.");
 	}
+	@Override
+	public void swimAble(int i, int j) {
+		System.out.println("수영을 하지 못합니다.");
+		
+	}
 }
